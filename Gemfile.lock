@@ -1,13 +1,13 @@
 PATH
   remote: /Users/mazaira/projects/base_crud
   specs:
-    base_crud (0.1.5)
+    base_crud (0.1.6)
       active_model_serializers (~> 0.10)
       jsonapi-serializers (~> 1.0)
       kaminari (>= 0.17, < 2.0)
-      pundit (~> 1.1)
-      rails (> 5, < 5.2)
-      wisper (~> 1.6)
+      pundit (>= 1.1, <= 2.0)
+      rails (> 5, < 5.3)
+      wisper (>= 1.6, <= 2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -76,7 +76,7 @@ GEM
     ffi (1.9.23)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (1.0.1)
+    i18n (1.1.1)
       concurrent-ruby (~> 1.0)
     jsonapi-renderer (0.2.0)
     jsonapi-serializers (1.0.0)
@@ -112,7 +112,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     puma (3.11.4)
-    pundit (1.1.0)
+    pundit (2.0.0)
       activesupport (>= 3.0.0)
     rack (2.0.5)
     rack-test (1.0.0)
